@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:ital,wght@0,400;0,700;1,500;1,900&display=swap" rel="stylesheet">
@@ -13,12 +14,11 @@
 
   <body>
     <header>
+      <main>
       <nav class="header-navigation">
-        <a href="" class="header-logo">
-        <a class="header-logo"href="./index.html">Web<snap class="heder-peace-logo">Studio</snap></a>
+      <a class="header-logo" href="./index.html">Web<span class="heder-peace-logo">Studio</span></a>
 <ul class="list">
-  <a class="header-item"><h class="link-header"></a>
-          <li class="header-item" ><a class="link header-link" href=""> Студия </a></li>
+ <li class="header-item" ><a class="link header-link" href=""> Студия </a></li>
           <li class="header-item"><a class="link header-link" href="">Портфолио </a></li>
           <li class="heade-item"><a class="link header-link" href="">Контакты</a></li>
         </ul>
@@ -27,39 +27,37 @@
         <li><a class="link header-mail" href="info@devstudio.com">info@devstudio</a></li>
         <li><a class="link header-tel" href="tel:+380961111111">+38 096 111 11 11</a></li>
       </ul>
+      </main>
     </header>
 
     <section class="hero">
   <h1 class="hero-titel">Эффективные решения для вашего бизнеса</h1>
 
-      <button class="hero-button pointer" type="button">Заказать услугу</button>
+      <button class="hero-button pointe " type="button">Заказать услугу</button>
     </section>
     <section class="about">
       <ul class="list">
         <li>
-          <h2>Внимание к деталям</h2>
-          <p>
-            Идейные соображения, а также начало повседневной работы по
+          <h2 class="about-hero">Внимание к деталям</h2>
+          <p class="about-text">Идейные соображения, а также начало повседневной работы по
             формированию позиции.
           </p>
         </li>
         <li>
-          <h2>Пунктуальность</h2>
-          <p>
-            Задача организации, в особенности же рамки и место обучения кадров
+          <h2 class="about-hero">Пунктуальность</h2>
+          <p class="about-text">Задача организации, в особенности же рамки и место обучения кадров
             влечет за собой.
           </p>
         </li>
         <li>
-          <h2>Планирование</h2>
-          <p>
-            Равным образом консультация с широким активом в значительной степени
+          <h2 class="about-hero">Планирование</h2>
+          <p class="about-text">Равным образом консультация с широким активом в значительной степени
             обуславливает.
           </p>
         </li>
         <li>
-          <h2>Современные технологии</h2>
-          <p>
+          <h2 class="about-hero">Современные технологии</h2>
+          <p class="about-text">
             Значимость этих проблем настолько очевидна, что реализация плановых
             заданий.
           </p>
@@ -75,49 +73,51 @@
       </ul>
     </section>
     <section class="command-pre-titel"> 
-      <h1>Наша команда</h1>
+      <h1 class="command-hero">Наша команда</h1>
       <ul class="list">
         <li class="command-titel">
-          <img src="/images/img.jpg-4 .jpg" width="270" height="260" />
+          <img class="gallery" src="/images/img.jpg-4 .jpg" width="270" height="260" />
           <h3 lang="ru"class="command-item-titel">Игорь Демьяненко</h3>
-          <p lang="en"class="command-text-taitel">Product Designer</p>
+          <p lang="en"class="command-text-titel">Product Designer</p>
         </li>
 
-        <li>
-          <img src="/images/img -5.jpg" width="270" height="260" />
+        <li class="command-titel">
+          <img class="gallery"  src="/images/img -5.jpg" width="270" height="260" />
           <h3 lang="ru"class="command-item-titel">Ольга Репина</h3>
           <p lang="en"class="command-text-titel">Frontend Developer</p>
         </li>
 
-        <li>
-          <img src="/images/img.jpg-6 .jpg" width="270" height="260" />
+        <li class="command-titel">
+          <img class="gallery" src="/images/img.jpg-6 .jpg" width="270" height="260" />
           <h3 lang="ru"class="command-item-titel">Николай Тарасов</h3>
           <p lang="en"class="command-text-titel">Marketing</p>
         </li>
 
-        <li>
-          <img src="/images/img.jpg-7 .jpg" width="270" height="260" />
+        <li class="command-titel">
+          <img class="gallery" src="/images/img.jpg-7 .jpg" width="270" height="260" />
           <h3 lang="ru"class="command-item-taitel">Михаил Ермаков</h3>
           <p lang="en"class="command-text-titel">UI Designer</p>
         </li>
     </ul>
   </section>
-  <footer>
-<a>Web Studio</a>
-    <address>
-      <ul>
-        <li>
-          <a
+  <footer class="footer-link">
+    <main>
+<a class="header-logo" href="/index.html">Web<span class="heder-peace-logo">Studio</span></a>
+    <address class="info" > 
+      <ul class="list">
+        <li >
+          <a class="link-address"
             href="https://goo.gl/maps/CNNMZASc9Rck7qQLA"
             target="_blank"
             rel="noopener noreferrer"
-            >Киев, пр-т Леси Украинки, 26 г.</a
+            > г.Киев, пр-т Леси Украинки, 26</a
           >
         </li>
-        <li><a href="info@example.com">info@example.com</a></li>
-        <li><a href="+380991111111">+38 099 111 11 11</a></li>
+        <li class="link-mail"href="info@example.com">info@example.com</a></li>
+        <li class="link-tel"href="+380991111111">+38 099 111 11 11</a></li>
       </ul>
     </address>
+    </main>
   </footer>
 </body>
 </html>
